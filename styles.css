@@ -1,0 +1,33 @@
+/*variables y mixins*/
+.mixin {
+  border: 1px solid #2525af;
+  border-radius: 7px;
+  background-color: #2525af;
+  padding: 10px 10px 10px 10px;
+}
+body {
+  background-color: #0e0e0e;
+}
+h1 {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+p {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+}
+a {
+  font-family: 'Poppins', sans-serif;
+  color: white;
+  text-decoration: none;
+  border: 1px solid #2525af;
+  border-radius: 7px;
+  background-color: #2525af;
+  padding: 10px 10px 10px 10px;
+}
+a:hover {
+  background-color: #5757a3;
+}
+img {
+  width: 100px;
+}

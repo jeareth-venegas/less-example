@@ -1,0 +1,39 @@
+/*variables y mixins*/
+@blue:rgb(37, 37, 175);
+@white: white;
+.mixin{
+    border: 1px solid @blue;
+    border-radius: 7px;
+    background-color: @blue;
+    padding: 10px 10px 10px 10px;
+}
+
+body{
+    background-color: rgb(14, 14, 14);
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    color:@white;
+}
+
+p{
+    font-family: 'Poppins', sans-serif;
+    color:@white;
+}
+
+a{
+    font-family: 'Poppins', sans-serif;
+    color: @white;
+    text-decoration:none;
+    .mixin();
+}
+
+a:hover{
+    background-color: rgb(87, 87, 163);
+}
+
+img{
+    width:100px;
+}
+
